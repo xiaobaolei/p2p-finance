@@ -64,34 +64,47 @@ if (false) {
  - **必须**使用CamelCase。
 
 ###命名空间别名
- - **必须**使用CamelCase。  
+ - **必须**使用CamelCase。
+
 ###类
  - **必须**使用CamelCase。
- - 异常类**必须**以Exception作为后缀。  
+ - 异常类**必须**以Exception作为后缀。
+
 ###抽象类
- - **必须**使用CamelCase，以Abstract作为前缀。  
+ - **必须**使用CamelCase，以Abstract作为前缀。
+
 ###类常量
  - **必须**使用大写字母命名，使用划线来分隔单词。无需带上模块/包名前缀。
+
 ###类属性
  - **推荐**使用camelCase，用public、protected、private修饰都是如此。
+
 ###方法
  - **推荐**使用camelCase，用public、protected、private修饰都是如此。
+
 ###静态属性
  - **推荐**使用camelCase，用public、protected、private修饰都是如此。
+
 ###静态函数
  - **推荐**使用camelCase，用public、protected、private修饰都是如此。
+
 ###接口
  - **必须**使用CamelCase，并且用Interface作为后缀。
+
 ###trait
  - **必须**使用CamelCase， 并且用Trait作为后缀。
+
 ###目录名
  - 如果是遵从了psr-4的自动加载，**必须**为CamelCase。
  - 其他情况皆**必须**小写且用短横线`-`分割单词（尽量使用一个单词），可以为复数形式。
+
 ###文件名
  - 文档文件全部大写，后缀小写。如README.txt, INSTALL.txt, TODO.txt, CHANGELOG.txt
  - 纯PHP代码文件，如果仅包含一个类（接口、trait）遵从psr-4，则**必须**使用`CamelCase`，其他情况则**必须**全小写且用`下划线`(`_`)分割单词。例如：`config_development.php`。
  - 混合了PHP代码的视图文件，则全小写且用`短横线`(`-`)分割单词。例如：`clomun3-right.php`。
+
 ##书写规范
+
 ###缩进Indenting
  - **必须**使用4个空格代替Tab
 ###操作符Operators
