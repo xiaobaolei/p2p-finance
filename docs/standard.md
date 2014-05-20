@@ -3,11 +3,11 @@
 ###适用范围
 适用PHP5.4+，基于psr-1，psr-2，prs-4， 主要参考了[Yii2][1]、[Symfony2][2]、[ZendFramework2][3]、[PEAR][4]
 ###语气说明
-必须 - MUST、REQUIRED、SHALL
-不允许 - MUST NOT
-推荐 - SHOULD、RECOMMENDED
+必须 - MUST、REQUIRED、SHALL  
+不允许 - MUST NOT  
+推荐 - SHOULD、RECOMMENDED  
 不推荐 - SHOULD NOT 
-可选(建议) - OPTIONAL、MAY
+可选(建议) - OPTIONAL、MAY  
 
 ###术语表和参考引用
 首字母大写驼峰： StudlyCaps = CamelCase = Pascal
@@ -25,7 +25,7 @@
 ##命名规范
 ###关键字
  - 关键字**必须**为小写，如`if` `for` `function` ...。
-###全局常量
+###全局常量###
  - 使用大写字母命名，使用划线来分隔单词。如有模块名/包名带上前缀。
  - PHP内置常量 `true`、`false`、`null`**必须**小写。
  - 自定义常量**推荐**使用 `const`关键字来定义，而不是`define()`，除了必须使用`define()`的情况（如if语句结构中）。 
@@ -123,10 +123,10 @@ $foo = empty($shortCondition)
 
 ```
 ###数组定义
- - 推荐使用`[]`定义数组，而不是`array()`;
+ - **推荐**使用`[]`定义数组，而不是`array()`;
  - 单行的情况下每个元素用逗号空格`,　`分割，最后一个元素无需逗号；多行的情况下用逗号换行符分割，最后一个元素也应该有一个逗号`,`。
- - 多行的情况下，`[`或者`array(`后不允许跟数组元素。
- - 关联数组，多行情况下，多个key name相似的情况下，建议对齐赋值符`=>`。
+ - 多行的情况下，`[`或者`array(`后**不允许**跟数组元素。
+ - 关联数组，多行情况下，多个key name相似的情况下，**建议**对齐赋值符`=>`。
 ```php
 //一般形式
 $sampleArray = array('hello', 'world', 'foo' => 'bar');
